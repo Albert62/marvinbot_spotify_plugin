@@ -27,8 +27,8 @@ class SpotifyPlugin(Plugin):
         return {
             'short_name': self.name,
             'enabled': True,
-            'client_id': "",
-            'client_secret': "",
+            'client_id': "c2c415c734b444068cacf90925cb1f17",
+            'client_secret': "a93a34b68e7742428a747da32837a8cc",
             'url_pattern': r"https://open\.spotify\.com/(?P<type>track|album|artist)/(?P<id>[a-zA-Z0-9]+)"
         }
 
